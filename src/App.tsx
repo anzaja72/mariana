@@ -339,7 +339,13 @@ export default function App() {
                 className="space-y-8"
               >
                 <div className="aspect-video bg-[#1a1a1a]/5 rounded-3xl overflow-hidden relative group">
-                  <div className="absolute inset-0 flex items-center justify-center text-4xl font-serif opacity-10 group-hover:opacity-20 transition-opacity">FJ</div>
+                  <img 
+                    src="https://imgur.com/bfjUrpd.jpg" 
+                    alt="FJ Consultorías" 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
                   <div className="absolute bottom-6 left-6 px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-widest font-bold">Consultoría Corporativa</div>
                 </div>
                 
@@ -377,7 +383,13 @@ export default function App() {
                 className="space-y-8"
               >
                 <div className="aspect-video bg-[#1a1a1a]/5 rounded-3xl overflow-hidden relative group">
-                  <div className="absolute inset-0 flex items-center justify-center text-4xl font-serif opacity-10 group-hover:opacity-20 transition-opacity">LS</div>
+                  <img 
+                    src="https://imgur.com/IbUPoKl.jpg" 
+                    alt="Luisiana Sierra" 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
                   <div className="absolute bottom-6 left-6 px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full text-[10px] uppercase tracking-widest font-bold">Marca Personal & E-commerce</div>
                 </div>
                 

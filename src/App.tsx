@@ -66,8 +66,8 @@ export default function App() {
     };
 
     try {
-      // Calling our local server proxy instead of the external webhook directly to bypass CORS
-      const response = await fetch('/api/submit-onboarding', {
+      // Sending directly to the webhook URL. Ensure n8n is configured to accept CORS if needed.
+      const response = await fetch('https://icad-n8n.ltubgr.easypanel.host/webhook/mariana-onboarding', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
